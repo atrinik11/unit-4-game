@@ -1,13 +1,8 @@
 $(document).ready(function(){
-  $("button").click(function() {
-    $("#main").load("../index.html");
-  });
-
-  //Initializing the values............
+    //Initializing the values............
   var guessTotal = 0;
   var wins = 0;
   var losses = 0;
-  var additon = 0;
   var randomNumber = 0;
   var red = 0;
   var green = 0;
@@ -29,8 +24,8 @@ $(document).ready(function(){
   gen();
   $("#random-number").html(randomNumber);
   $("#total-score").html(guessTotal);
-  $("#loss1").html(losses);
-  $("#win1").html(wins);
+  $("#loss1").text(losses);
+  $("#win1").text(wins);
 
   $("#button1").click(function(){
       work(red);
