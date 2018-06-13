@@ -1,0 +1,108 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin : 20px;
+    color : white;
+}
+
+.jumbotron {
+    background : url('../images/glitter_files/16_animated_background.gif');
+    background-size : cover;
+    height : auto;
+    margin : 20px 0 0 0;
+    text-align : center;
+    font-size : 35px;
+    letter-spacing : .75em;
+    font-family: 'Acme', sans-serif;
+}
+
+.container {
+  background : url('../images/glitter_files/16_animated_background.gif');
+}
+
+.container, .row h1 {
+  font-size : 30px;
+  padding : 20px;
+  text-align : center;
+}
+
+.row {
+  padding : 20px;
+  text-align : center;
+  font-size : 20px;
+}
+
+.container h6{
+  font-size : 30px;
+  padding : 20px;
+  line-height : 30px;
+  text-align : left;
+}
+
+/*Styling the button...................................*/
+.jumbotron button {
+  float : right;
+}
+
+.btn-lg {
+  background : transparent;
+  border : none;
+  color : white;
+  text-decoration : none;
+}
+
+.btn-link {
+  text-decoration : none;
+  color: white;
+  cursor : pointer;
+}
+
+button a:visited {
+  color : white;
+}
+
+/*Giving a background color/pattern to the co-lg-8...............................*/
+.col-lg-8 .row{
+    background-color : transparent;
+    padding : 20px;
+    text-align : center;
+    padding : 20px 10px;
+    line-height : 1.5em;
+}
+
+/*Alligning the numbers according to the text...........................*/
+#random-number {
+  padding : 0 5px 0 125px;
+}
+
+ #total-score {
+   padding : 20px 5px 0 60px;
+ }
+
+ #win1, #loss1 {
+   padding : 0 25px 80px 20px;
+   font-size : 40px;
+ }
+
+/*Designing the crystal buttons...........................................*/
+.col-sm button{
+  padding : 35px 25px;
+  background-repeat : no-repeat;
+  background-size : contain;
+  align-content: center;
+  margin : auto;
+}
+
+#button1{
+    background-image : url("../images/crystal-red.jpg");
+    background-size : cover;
+}
+#button2{
+    background-image : url("../images/crystal-green.jpg");
+}
+#button3{
+    background-image : url("../images/crystal1.jpg");
+    background-size : cover;
+}
+#button4{
+    background-image : url("../images/crystal-yellow.jpg");
+}
